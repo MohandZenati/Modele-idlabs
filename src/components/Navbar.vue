@@ -2,21 +2,23 @@
     <div class="navbar">
         <div class="navbar__container">
             <div class="navbar__left">
-                <a>Joyce Book</a>
-                <span>Réserver un séjour</span>
+                <a><img src="../assets/i-logo.svg" alt=""></a>
             </div>
 
-            <div class="navbar__right">
-                <span>Inscription</span>
-                <span>Connexion</span>
-                <div class="burger__menu" ><img src="../assets/i-menu.svg" alt=""></div>
+              <div class="navbar__right">
+              
+                <ul>
+                    <li>Jobs</li>
+                    <li>Companies</li>
+                    <li>Salaries</li>
+                </ul>
+
+                <button>Sign up</button>
             </div>
         </div>
     </div>
 </template>
 
-
 <script setup>
 
 </script>
-

@@ -1,13 +1,21 @@
 <script setup>
-import Navbar from './components/Navbar.vue'
-import Header from './components/Header.vue';
-import Hotel from './components/Hotel.vue';
+import Navbar from './components/Navbar.vue';
+import Searchbar from './components/Searchbar.vue';
+import FilterList from './components/filterlist.vue';
+import CardList from './components/CardList.vue';
+import Footerbar from './components/Footerbar.vue';
+
 </script>
 
 <template>
     <Navbar />
-    <Header />
-    <Hotel />
-  
-</template>
+    <Searchbar />
+    <div class="content">
+        <filterList />
+        <CardList />
+    </div>
+    <Footerbar />
 
+    
+
+</template>
