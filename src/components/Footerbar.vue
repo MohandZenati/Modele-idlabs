@@ -51,6 +51,27 @@
 
     </div>
 
+
+    <div class="footer__nav">
+      <div class="footer__nav__container">
+        <div class="item">
+          <img src="../assets/i-jobs.svg" alt="">
+          <span>Jobs</span>
+        </div>
+        <div class="item">
+          <img src="../assets/i-salary.svg" alt="">
+          <span>Salary</span>
+        </div>
+        <div class="item">
+          <img src="../assets/i-company.svg" alt="">
+          <span>Company</span>
+        </div>
+        <div class="item">
+          <img src="../assets/i-account.svg" alt="">
+          <span>Account</span>
+        </div>
+      </div>
+    </div>
   </footer>
 </template>
   

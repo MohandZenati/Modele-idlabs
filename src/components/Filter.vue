@@ -4,11 +4,12 @@
       <h1>{{ item.name }}</h1>
       <img src="../assets/i-arrow.svg" alt="">
     </div>
-    <!-- Condition pour afficher searchcity uniquement pour le premier filtre -->
+
     <div class="searchcity" v-if="index === 0">
       <img src="../assets/i-search.svg" alt="">
       <input type="text" value="City name...">
     </div>
+
     <div class="filter__option"> 
       <div class="filter" v-for="(dataItem, dataIndex) in item.data" :key="dataIndex">
         <div class="filter__item" >
@@ -17,14 +18,14 @@
         </div>
         <span>{{ dataItem.numbers }}</span>
       </div>
+
     </div>
   </div>
 </template>
 
   
   <script setup>
-  import { ref } from 'vue';
-  
+
   const city = [
     { title: "Paris", numbers: "87" },
     { title: "Marseille", numbers: "65" },
@@ -46,7 +47,7 @@
     { title: "Part time", numbers: "15" },
     { title: "Full remote", numbers: "32" },
     { title: "Intership", numbers: "28" },
-    { title: "Apprenticeship", numbers: "10" },
+    { title: "Apprentice", numbers: "10" },
   ];
 
   const Equipment = [
@@ -65,7 +66,7 @@
     { name: "Equipment", data: Equipment },
   ];
   
-  console.log(nameFilter);
   
+
   </script>
   

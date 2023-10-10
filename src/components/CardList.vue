@@ -8,6 +8,7 @@
                 <img src="../assets/i-arrow.svg" alt="">
             </div>
         </div>
+
         <div class="cardlist__container">
             <Card />
             <Card />
@@ -27,8 +28,7 @@
             </div>
         </div>
 
-        <div class="pagination">
-       
+        <div class="pagination">      
                 <img src="../assets/i-arrow.svg" alt="">
                 <button class="active">1</button>
                 <button>2</button>
@@ -36,8 +36,8 @@
                 <span>...</span>
                 <button>12</button>
                 <img class="arrow__pagination" src="../assets/i-arrow.svg" alt="">
-    
         </div>
+        
     </div>
 </template>
 
