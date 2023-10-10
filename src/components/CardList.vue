@@ -1,7 +1,7 @@
 <template>
     <div class="cardlist">
         <div class="header__cardlist">
-            <span>Showing <strong>127</strong>Jobs</span>
+            <span>Showing  <strong>127</strong> Jobs</span>
             <div class="sort">
                 <span>Sort by :</span>
                 <span>Newest </span>
@@ -37,7 +37,7 @@
                 <button>12</button>
                 <img class="arrow__pagination" src="../assets/i-arrow.svg" alt="">
         </div>
-        
+
     </div>
 </template>
 

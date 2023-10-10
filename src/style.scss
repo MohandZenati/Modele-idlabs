@@ -1,5 +1,4 @@
-body,
-html {
+body, html {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -7,7 +6,6 @@ html {
   font-family: 'Poppins', sans-serif;
   background-color: #FAFAFA;
   position: relative;
- 
   overflow: auto;
 }
 
@@ -256,9 +254,10 @@ main {
           color: #808080;
           font-weight: 400;
         }
+        
 
         span:nth-child(2) {
-          font-weight: 600;
+          font-weight: 500;
           color: #2C3238;
         }
 
@@ -496,9 +495,7 @@ footer {
     display: flex;
     flex-direction: column;
 
-
     .btn__filterbar__container {
-
       .btn__filterbar__content {
         left: 0;
         top: 0;
@@ -528,9 +525,7 @@ footer {
             font-size: 1.1rem;
             font-weight: 500;
           }
-
         }
-
 
         .filterbar__container {
           max-height: 300px;
@@ -545,7 +540,6 @@ footer {
             flex-direction: column;
             gap: 20px;
 
-
             .title {
               display: flex;
               flex-direction: row;
@@ -555,7 +549,7 @@ footer {
               h1 {
                 font-size: 1.1rem;
                 color: #2C3238;
-                font-weight: 500
+                font-weight: 500;
               }
 
               img {
@@ -564,8 +558,6 @@ footer {
             }
 
             .searchcity {
-
-
               height: 40px;
               border: solid 1px #E2E8EF;
               border-radius: 5px;
@@ -585,7 +577,6 @@ footer {
               input:focus {
                 outline: none;
               }
-
             }
 
             .filter__option {
@@ -604,17 +595,14 @@ footer {
                   gap: 10px;
                 }
 
-
                 label {
                   color: #808080;
                 }
 
                 span {
                   color: #1E61EB;
-
                 }
               }
-
             }
           }
 
@@ -628,15 +616,12 @@ footer {
             cursor: pointer;
           }
         }
-
       }
 
       .open {
         display: block;
       }
-
     }
-  
 
     .cardlist {
       margin-left: 0px;
@@ -667,7 +652,6 @@ footer {
       color: white;
       font-weight: 500;
       cursor: pointer;
-
     }
   }
 }
@@ -702,15 +686,11 @@ footer {
 }
 
 @media only screen and (min-width: 680px) {
-
-
-
   .btn__filterbar__container {
     .btn__filterbar__content {
       display: none;
-
-        }
-      }
+    }
+  }
 
   footer {
     .footer__nav {
@@ -720,7 +700,6 @@ footer {
 }
 
 @media only screen and (max-width: 680px) {
-
   main {
     margin-bottom: 60px;
   }
@@ -733,19 +712,9 @@ footer {
     }
   }
 
-
-
-  @media only screen and (max-width: 680px) {
-
-
-
-
-  
-
   .open {
     display: block;
   }
-
 
   .content {
     .cardlist {
@@ -810,5 +779,4 @@ footer {
       }
     }
   }
-}
 }
