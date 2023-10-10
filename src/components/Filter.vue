@@ -7,24 +7,24 @@
 
     <div class="searchcity" v-if="index === 0">
       <img src="../assets/i-search.svg" alt="">
-      <input type="text" value="City name...">
+      <input type="text" value="City Name">
     </div>
 
-    <div class="filter__option"> 
+    <div class="filter__option">
       <div class="filter" v-for="(dataItem, dataIndex) in item.data" :key="dataIndex">
         <div class="filter__item" >
-          <input type="checkbox" :value="dataItem.title">
+          <input type="checkbox"  >
           <label>{{ dataItem.title }}</label>
         </div>
         <span>{{ dataItem.numbers }}</span>
       </div>
-
     </div>
   </div>
 </template>
 
   
   <script setup>
+
 
   const city = [
     { title: "Paris", numbers: "87" },
@@ -60,13 +60,14 @@
   
   
   const nameFilter = [
-    { name: "City", data: city },
-    { name: "Categorie", data: Categorie },
-    { name: "Job Type", data: jobType },
-    { name: "Equipment", data: Equipment },
-  ];
-  
-  
+  { name: "City", data: city },
+  { name: "Categorie", data: Categorie },
+  { name: "Job Type", data: jobType }, // Correction de la faute de frappe ici
+  { name: "Equipment", data: Equipment },
+];
 
+
+
+  
   </script>
   
